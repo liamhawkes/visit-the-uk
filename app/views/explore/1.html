@@ -1,0 +1,43 @@
+{% extends "layout.html" %} {% block page_title %} Explore your UK visa options - GOV.UK {% endblock %} {% block service_name %} Explore your UK visa options {% endblock %} {% block content %}
+
+<main id="content" role="main">
+    {% include "includes/phase_banner_alpha.html" %}
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+
+            <a class="link-back" href="/explore/index.html">Back</a>
+
+            <h1 class="heading-large">
+                How long are you staying for?
+            </h1>
+
+            <form action="2" method="get" class="form">
+
+                <div class="form-group">
+                    <fieldset>
+
+                        <legend class="visually-hidden">How long are you staying for?</legend>
+
+                        <div class="multiple-choice">
+                            <input id="stay-less6" type="radio" name="stay" value="less6">
+                            <label for="stay-less6">less than 6 months</label>
+                        </div>
+                        <div class="multiple-choice">
+                            <input id="terms-more6" type="radio" name="stay" value="more6">
+                            <label for="stay-more6">more than 6 months</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <input class="button" type="submit" value="Continue">
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</main>
+
+{% endblock %}

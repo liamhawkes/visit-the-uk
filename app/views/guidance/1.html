@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Visit the UK visa options - GOV.UK
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+        {% include "includes/phase_banner_alpha.html" %}
+
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="https://www.gov.uk">Home</a></li>
+            <li><a href="/index.html">Visas and immigration</a></li>
+            <li><a href="/come_to_the_uk.html">Come to the UK</a></li>
+            <li><a href="/task/index.html">Visit the UK</a></li>
+            <li>Visit the UK visa options</li>
+        </ol>
+    </div>
+
+           <div class="grid-row">
+    <div class="column-full" style="margin-bottom:35px;">
+        
+          <h1 class="heading-large">
+        Visit the UK visa options
+      </h1>
+
+        <p>Visas you may be eligible for, if:</p>
+        
+        <ul class="list list-bullet">
+      <li>you are staying in the UK for <span style="font-weight:bold;">less than 6 months</span> <a href="/explore/1.html">edit</a></li>
+    <li>your main purpose of your visit is <span style="font-weight:bold;">Tourism, including visiting family and friends</span> <a href="/explore/2.html">edit</a></li>      
+    </ul>        
+    </div>   
+
+    </div>
+    
+    <div class="visa-card">
+                   <div class="grid-row">
+    <div class="column-full">
+        <h3 class="heading-medium"><a href="#" style="text-decoration:none;">Standard visitor visa</a></h3>
+        <p style="width:66.66%;">You can visit the UK on holiday, to see friends and family, take part in sports or creative events, receive medical treatment.</p>
+                       </div>   
+    </div>
+        <div class="grid-row">
+            
+            <div class="column-one-half">
+    <p><span style="font-weight:bold;">Work:</span> No</p>
+    <p><span style="font-weight:bold;">Study:</span> Yes (up to 30 days)</p>
+  </div>
+
+  <div class="column-one-half">
+    <p><span style="font-weight:bold;">Cost:</span> £89</p>
+    <p><span style="font-weight:bold;">Length of stay:</span> up to 6 months</p>  </div>
+        </div>
+    </div>
+    
+        
+
+
+
+</main>
+
+<style>
+
+    .visa-card {
+        padding: 30px 0;
+        border-top: 1px solid #bfc1c3;
+    }
+    
+    .visa-card .heading-medium {
+        margin-top: 0;
+    }
+    
+    .column-one-half p {
+        margin-bottom: 0;
+    }
+
+</style>
+
+
+{% endblock %}

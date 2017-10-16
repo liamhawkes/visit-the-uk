@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Start page example
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+        {% include "includes/phase_banner_alpha.html" %}
+
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="https://www.gov.uk">Home</a></li>
+            <li><a href="/index.html">Visas and immigration</a></li>
+            <li><a href="/come_to_the_uk.html">Come to the UK</a></li>
+            <li><a href="/task/index.html">Visit the UK</a></li>
+            <li>Check if you need a UK visa</li>
+        </ol>
+    </div>
+
+           <div class="grid-row">
+    <div class="column-two-thirds">
+        
+          <h1 class="heading-large">
+        Check if you need a UK visa
+      </h1>
+
+      <p>You may need a visa to come to the UK to visit, study or work.</p>
+        
+        <p>If you already know you need a visa, you can <a href="/explore/index.html">explore your UK visa options</a>.</p>
+
+                 
+    <p>     
+        <a class="button" href="/check-if-need-visa/1.html" role="button">Check</a>
+      </p>
+                
+    </div>   
+
+    </div>
+
+
+
+</main>
+
+
+<style>
+
+
+    .slides {
+    padding: 60px;
+    margin-top: 30px;
+    background-color: #005ea5;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 480px;
+}
+    
+    .slides .heading-large {
+        margin-top:0;
+    }
+    
+    .slides a {
+        color: #ffffff;
+    }
+    
+    .slides .button {
+        background-color: #ffffff;
+        color: #005ea5;
+        font-weight: bold;
+        box-shadow: 0 2px 0 #00192c;
+    }
+    
+    .slides .button:active {
+                color: #005ea5;
+
+    }
+    
+</style>
+
+{% endblock %}

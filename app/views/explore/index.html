@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Explore your UK visa options - GOV.UK
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+        {% include "includes/phase_banner_alpha.html" %}
+
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="https://www.gov.uk">Home</a></li>
+            <li><a href="/index.html">Visas and immigration</a></li>
+            <li><a href="/come_to_the_uk.html">Come to the UK</a></li>
+            <li><a href="/task/index.html">Visit the UK</a></li>
+            <li>Explore your UK visa options</li>
+        </ol>
+    </div>
+        
+        
+        
+     <div class="slides">
+           <div class="grid-row">
+    <div class="column-two-thirds">
+        
+          <h1 class="heading-large">
+        Explore your UK visa options
+      </h1>
+
+      <p>There are different visa options to choose from depending on:</p>
+         
+        <ul class="list-bullet list">
+        <li>your circumstances</li>
+        <li>what you want to do in the UK</li>
+        </ul>    
+        
+         <p>We'll ask you some questions to check which options you may be suitable for.</p>
+                 
+    <p>     
+        <a class="button" href="/explore/1.html" role="button">Continue</a>
+      </p>
+        
+                <p>If you already know the visa you want to apply for, you can <a href="/explore/index.html">read guidance and check eligibility</a>.</p>
+         
+    </div>   
+
+    </div>
+
+  </div>
+
+</main>
+
+<style>
+
+
+    .slides {
+    padding: 60px;
+    margin-top: 30px;
+    background-color: #005ea5;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 480px;
+}
+    
+    .slides .heading-large {
+        margin-top:0;
+    }
+    
+    .slides a {
+        color: #ffffff;
+    }
+    
+    .slides .button {
+        background-color: #ffffff;
+        color: #005ea5;
+        font-weight: bold;
+        box-shadow: 0 2px 0 #00192c;
+    }
+    
+    .slides .button:active {
+                color: #005ea5;
+
+    }
+    
+</style>
+{% endblock %}
